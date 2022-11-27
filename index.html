@@ -33,6 +33,28 @@ body {margin:0;}
   margin-top: 30px;
   height: 1500px; /* Used in this example to enable scrolling */
 }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p.shifted {
+    margin-left: 30px;
+}
+
+#images {
+    white-space: nowrap;
+    text-align: center;
+
+}
 </style>
 </head>
 <body>
@@ -44,14 +66,34 @@ body {margin:0;}
 </div>
 
 <div class="main">
+ <h1><center>Anmol Bhatia</center></h1>
+<div id="images">
+    <img src="./media/John.jpg" alt="Snow" style="width:10%">
+    <img src="./media/Dilruba.jpg" alt="Forest" style="width:11%">
+    <img src="./media/Tennis.jpg" alt="Mountains" style="width:15%">
+    <img src="https://images.squarespace-cdn.com/content/v1/5f592f3a8873b85f2843684a/1599681407897-OPB960J6BA6U2VC54M40/IMG_0666.JPG" alt="Roads" style="width:19%">
+</div>
+<hr>
  <h2>My Links</h2>
-<p><a href="https://www.w3.org/">W3C</a></p>
-  <p>Some text some text some text some text..</p>
-<p><a href="https://www.google.com/">Google</a></p>
-  <p>Some text some text some text some text..</p>
+ <h3><br> Brain Bee Recognitions: </br></h3>
+<p  class="shifted"><b><a href="https://www.thebrainbee.org/competition/2022-championships/2022-competitors/">International Brain Bee.</a></b></p>
+<p  class="shifted"><b><a href="https://www.linkedin.com/feed/update/urn:li:activity:6958135258609295360/">Rutgers New Jersey Medical School LinkedIn page.</a></b></p>
+<p  class="shifted"><b><a href="https://njms.rutgers.edu/sgs/news/brainbee.php">Rutgers-Newark Brain Bee.</a></b></p> 
+<!--
+<p  class="shifted"> Picture and Bio on the <b><a href="https://www.thebrainbee.org/competition/2022-championships/2022-competitors/">International Brain Bee Website</a></b>, <b><a href="https://njms.rutgers.edu/sgs/news/brainbee.php/">Rutgers-Newark Brain Bee page</a></b> and <b><a href="https://www.linkedin.com/feed/update/urn:li:activity:6958135258609295360/">Rutgers New Jersey Medical School LinkedIn page</a></b>.</p>
+-->
+<p class="shifted"><b><a href="https://www.fens.org/news-activities/news/2022-ibb-world-championship-discover-the-winners/">July 22 FENS Federation of European Neuroscience Societies News.</a></b></p>
+<p class="shifted"> <b><a href="https://www.biausa.org/public-affairs/media/international-brain-bee-world-championship/">Brain Injury Association of America.</a></b></p>
 
+ <h3><br> NJ Governor&#39;s STEM Research Program: </br></h3>
+ <p  class="shifted"> I was one of the top 120 students <b><a href="https://www.govstemscholars.com/team/anmol-bhatia">selected.</a></b></p>
+ <p  class="shifted"> Currently studying the impact of social media and other communication mediums on the public perception of the efficacy of ivermectin in treating Covid-19.</p>
+
+ <h3><br> Alphademic Learning: </br></h3>
+ <p  class="shifted"> Our <b><a href="https://www.alphademic.org/">non-profit organization</a></b> was featured in the <b><a href="https://patch.com/new-jersey/baskingridge/ridge-watchung-hills-students-donate-hospice-center">local news</a></b> Aug 2020 for donating medical gowns to  Hope Hospice and Palliative Care in Scotch Plains.</p>
 
 </div>
 
 </body>
 </html>
+
